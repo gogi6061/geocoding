@@ -1,0 +1,12 @@
+com\amiriskhakov\geocoding\exceptions\WrongCoordinatesException.class
+com\amiriskhakov\geocoding\contollers\MainController.class
+com\amiriskhakov\geocoding\http\HttpClient.class
+com\amiriskhakov\geocoding\payload\request\ReverseRequest.class
+com\amiriskhakov\geocoding\exceptions\WrongAddressException.class
+com\amiriskhakov\geocoding\payload\response\ErrorMessageResponse.class
+com\amiriskhakov\geocoding\dtos\ReverseDTO.class
+com\amiriskhakov\geocoding\payload\request\ForwardRequest.class
+com\amiriskhakov\geocoding\GeocodingApplication.class
+com\amiriskhakov\geocoding\dtos\ForwardDTO.class
+com\amiriskhakov\geocoding\handlers\GeocodingHandler.class
+com\amiriskhakov\geocoding\JsonTest.class
