@@ -22,7 +22,7 @@ public class HttpClient {
                 .url(stringForReverse)
                 .get()
                 .addHeader("x-rapidapi-host", "forward-reverse-geocoding.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "63dde7146fmshe14b70d412fd5fap178362jsnc4cf6c655494")
+                .addHeader("x-rapidapi-key", "")
                 .build();
 
         return client.newCall(requestForForward).execute();
@@ -35,7 +35,7 @@ public class HttpClient {
                 .url(stringForReverse)
                 .get()
                 .addHeader("x-rapidapi-host", "forward-reverse-geocoding.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "63dde7146fmshe14b70d412fd5fap178362jsnc4cf6c655494")
+                .addHeader("x-rapidapi-key", "")
                 .build();
 
         return client.newCall(requestForForward).execute();
