@@ -16,7 +16,7 @@ public class HttpClient {
     }
 
     public Response requestForReverse(String lat, String lon) throws IOException {
-        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/reverse?lat=%s&lon=%s", lat, lon);
+        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/reverse?lat=%s&lon=%s&accept-language=en", lat, lon);
 
         Request requestForForward = new Request.Builder()
                 .url(stringForReverse)
@@ -29,7 +29,7 @@ public class HttpClient {
     }
 
     public Response requestForForward(String city) throws IOException {
-        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/forward?city=%s", city);
+        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/forward?city=%s&accept-language=en", city);
 
         Request requestForForward = new Request.Builder()
                 .url(stringForReverse)
@@ -42,7 +42,7 @@ public class HttpClient {
     }
 
     public Response requestForForward(String city, String street) throws IOException {
-        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/forward?city=%s&street=%s", city, street);
+        String stringForReverse = String.format("https://forward-reverse-geocoding.p.rapidapi.com/v1/forward?city=%s&street=%s&accept-language=en", city, street);
 
         Request requestForForward = new Request.Builder()
                 .url(stringForReverse)

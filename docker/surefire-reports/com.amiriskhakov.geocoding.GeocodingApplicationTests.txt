@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.amiriskhakov.geocoding.GeocodingApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.646 s - in com.amiriskhakov.geocoding.GeocodingApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.011 s - in com.amiriskhakov.geocoding.GeocodingApplicationTests
